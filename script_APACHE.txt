@@ -1,0 +1,16 @@
+
+
+    
+    # Instalar pacote Apache2
+    os.system("sudo apt-get install -y apache2")
+    
+    # Iniciar serviço Apache2
+    os.system("sudo systemctl start apache2")
+    
+    # Habilitar serviço Apache2 para iniciar automaticamente
+    os.system("sudo systemctl enable apache2")
+    
+    print("Servidor Apache foi provisionado e iniciado com sucesso.")
+
+# Provisionar o servidor Apache
+provision_apache_server()
